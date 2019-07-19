@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7aac8aad-3e9c-4172-9295-b1a7feae55df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e740aa47-de6b-410a-9129-abace64c3f4c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e740aa47-de6b-410a-9129-abace64c3f4c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e740aa47-de6b-410a-9129-abace64c3f4c/storage_v2/_src_/database/SafeGold.rYn9bA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e740aa47-de6b-410a-9129-abace64c3f4c/storage_v2/_src_/database/SafeGold.rYn9bA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e740aa47-de6b-410a-9129-abace64c3f4c/storage_v2/_src_/database/SafeGold.rYn9bA/schema/public.abK9xQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e740aa47-de6b-410a-9129-abace64c3f4c/storage_v2/_src_/database/SafeGold.rYn9bA/schema/public.abK9xQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e740aa47-de6b-410a-9129-abace64c3f4c/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e740aa47-de6b-410a-9129-abace64c3f4c/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sgAdmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sgAdmin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Bordero.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Bordero.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Forms/BorderoForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Forms/BorderoForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BorderoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BorderoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/TarifaBancaria.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/TarifaBancaria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/TarifaBancariaPorBordero.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/TarifaBancariaPorBordero.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/TipoRecebivel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/TipoRecebivel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/UtilizacaoDeRecurso.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/UtilizacaoDeRecurso.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/adminlte.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/adminlte.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dbanco_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dbanco_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dcarteira_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dcarteira_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dccusto_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dccusto_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dclifor_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dclifor_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dforms_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dforms_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dfunc_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dfunc_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dlimite_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dlimite_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dperfil_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dperfil_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dplanoconta_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dplanoconta_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dplanodepara_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dplanodepara_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dplanopad_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dplanopad_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dplanopadcta_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dplanopadcta_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dprousu_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dprousu_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_drdvdesp_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_drdvdesp_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dsegmento_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dsegmento_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dtarifa_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dtarifa_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dtiporecebivel_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dtiporecebivel_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_durecliq_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_durecliq_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dusuario_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dusuario_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_fbordero_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_fbordero_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_fbortarifa_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_fbortarifa_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_fbortitulo_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_fbortitulo_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_fdfc_lacto_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_fdfc_lacto_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_ffomento_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_ffomento_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_fimpdfc_ms_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_fimpdfc_ms_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_fimporcams_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_fimporcams_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_frdv_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_frdv_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_frdvi_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_frdvi_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_zgiba_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_zgiba_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bordero/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/bordero/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bordero/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/bordero/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bordero/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/bordero/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - SafeGold@servidor" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - SafeGold@servidor" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - SafeGold@servidor" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="SafeGold: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - SafeGold@servidor" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="SafeGold: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - SafeGold@servidor" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="SafeGold: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - SafeGold@servidor" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="SafeGold: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - SafeGold@servidor" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="SafeGold: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="dtarifa: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - SafeGold@servidor" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="SafeGold: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="dusuario: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - SafeGold@servidor" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="SafeGold: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="fbordero: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - SafeGold@servidor" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="SafeGold: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="fbortitulo: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Forms/BorderoForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#29#43#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/edit.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3180">
+              <caret line="161" column="49" selection-start-line="161" selection-start-column="49" selection-end-line="161" selection-end-column="49" />
+              <folding>
+                <element signature="e#109#135#0#HTML" expanded="true" />
+                <element signature="e#827#834#1#HTML" expanded="true" />
+                <element signature="e#2306#2359#0#HTML" expanded="true" />
+                <element signature="e#483#510#0#HTML" expanded="true" />
+                <element signature="e#886#913#0#HTML" expanded="true" />
+                <element signature="e#1268#1295#0#HTML" expanded="true" />
+                <element signature="e#1648#1675#0#HTML" expanded="true" />
+                <element signature="e#2448#2475#0#HTML" expanded="true" />
+                <element signature="e#2805#2832#0#HTML" expanded="true" />
+                <element signature="e#3219#3246#0#HTML" expanded="true" />
+                <element signature="e#3637#3664#0#HTML" expanded="true" />
+                <element signature="e#4125#4152#0#HTML" expanded="true" />
+                <element signature="e#4497#4524#0#HTML" expanded="true" />
+                <element signature="e#6871#6898#0#HTML" expanded="true" />
+                <element signature="e#5292#5319#0#HTML" expanded="true" />
+                <element signature="e#5729#5756#0#HTML" expanded="true" />
+                <element signature="e#6101#6128#0#HTML" expanded="true" />
+                <element signature="e#6487#6514#0#HTML" expanded="true" />
+                <element signature="e#6885#6912#0#HTML" expanded="true" />
+                <element signature="e#7322#7349#0#HTML" expanded="true" />
+                <element signature="e#7694#7721#0#HTML" expanded="true" />
+                <element signature="e#7860#7887#0#HTML" expanded="true" />
+                <element signature="e#8258#8285#0#HTML" expanded="true" />
+                <element signature="e#8703#8730#0#HTML" expanded="true" />
+                <element signature="e#8868#8895#0#HTML" expanded="true" />
+                <element signature="e#9033#9060#0#HTML" expanded="true" />
+                <element signature="e#9423#9450#0#HTML" expanded="true" />
+                <element signature="e#9860#9887#0#HTML" expanded="true" />
+                <element signature="e#10248#10275#0#HTML" expanded="true" />
+                <element signature="e#10413#10440#0#HTML" expanded="true" />
+                <element signature="e#10811#10838#0#HTML" expanded="true" />
+                <element signature="e#11246#11273#0#HTML" expanded="true" />
+                <element signature="e#11636#11663#0#HTML" expanded="true" />
+                <element signature="e#11801#11828#0#HTML" expanded="true" />
+                <element signature="e#12183#12210#0#HTML" expanded="true" />
+                <element signature="e#12808#12835#0#HTML" expanded="true" />
+                <element signature="e#13288#13315#0#HTML" expanded="true" />
+                <element signature="e#13906#13933#0#HTML" expanded="true" />
+                <element signature="e#14384#14411#0#HTML" expanded="true" />
+                <element signature="e#14925#14952#0#HTML" expanded="true" />
+                <element signature="e#15484#15511#0#HTML" expanded="true" />
+                <element signature="e#18030#18067#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/_tarifas.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BorderoController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="88" column="74" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
+              <folding>
+                <element signature="e#40#56#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/adminlte.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="121" column="44" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/show.blade.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <folding>
+                <element signature="e#7#389#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>@yield</find>
+      <find>title</find>
+      <find>sub</find>
+      <find>taxa</find>
+      <find>bor_data</find>
+      <find>bor_chk_l</find>
+      <find>bor_chk_io</find>
+      <find>bor_cst</find>
+      <find>bor_taxa_acord</find>
+      <find>bor_ch</find>
+      <find>cst_</find>
+      <find>taxa_acor</find>
+      <find>url</find>
+      <find>io</find>
+      <find>q</find>
+      <find>recusa</find>
+      <find>float</find>
+      <find>custo</find>
+      <find>background-color: powderblue;</find>
+      <find>fomento</find>
+      <find>cst</find>
+      <find>Modal title</find>
+      <find>modal</find>
+      <find>statu</find>
+      <find>Nova</find>
+      <find>bordero.rates.create</find>
+      <find>cons</find>
+      <find>plugin</find>
+      <find>b</find>
+      <find>praz</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>@endsection</replace>
+      <replace>entity</replace>
+      <replace>\Carbon\Carbon::now()</replace>
+      <replace>{!!</replace>
+      <replace>!!}</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\sgAdmin\app</dir>
+      <dir>C:\xampp\htdocs\sgAdmin</dir>
+      <dir>C:\xampp\htdocs\COFRE\sgAdmin\database\migrations</dir>
+      <dir>C:\xampp\htdocs\COFRE\sgAdmin\app</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e740aa47-de6b-410a-9129-abace64c3f4c/console.sql" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Projeto.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/createBordero.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/list-borderos.blade.php" />
+        <option value="$PROJECT_DIR$/storage/framework/views/bc2b3820dc53cc37d319792e74a92f4a89a95cce.php" />
+        <option value="$PROJECT_DIR$/storage/framework/views/fa26dff3e72b94472b3813d5f8aca55044b52fc7.php" />
+        <option value="$PROJECT_DIR$/storage/framework/views/3160a9cac10fb843240e88b337a2d5a494ef23ee.php" />
+        <option value="$PROJECT_DIR$/storage/framework/views/e0bb12b7a305149a09e971f8c5a2046e81b247fd.php" />
+        <option value="$PROJECT_DIR$/app/Carteira.php" />
+        <option value="$PROJECT_DIR$/app/TipoRecebivel.php" />
+        <option value="$PROJECT_DIR$/app/UtilizacaoDeRecurso.php" />
+        <option value="$PROJECT_DIR$/storage/framework/views/384bc7ebbd52ed4f6ac40b55ad574c8deafd62d4.php" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/laravel-form-builder/form2.php" />
+        <option value="$PROJECT_DIR$/config/laravel-form-builder.php" />
+        <option value="$PROJECT_DIR$/storage/framework/views/0a029b11f820c1f802c96ac22cc5258255a7ed38.php" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/laravel-form-builder/form.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/home.blade.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dbanco_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dusuario_table.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/adminlte/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/helpers/flash-message.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/adminlte/page.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/adminlte/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/bordero/create.blade.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/app/TarifaBancaria.php" />
+        <option value="$PROJECT_DIR$/app/Forms/TarifaBorderoForm.php" />
+        <option value="$PROJECT_DIR$/app/Bordero.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TarifaController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/TarifaBancariaPorBordero.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TarifaBorderoController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/bordero/_tarifas.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/bordero/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/bordero/show.blade.php" />
+        <option value="$PROJECT_DIR$/config/adminlte.php" />
+        <option value="$PROJECT_DIR$/app/Forms/BorderoForm.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/bordero/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BorderoController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/appzcoder/crud-generator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/krlove/code-generator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/krlove/eloquent-model-generator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/jeroennoten/laravel-adminlte" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/xethron/migrations-generator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/xethron/laravel-4-generators" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/reliese/laravel" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/kris/laravel-form-builder" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/igorescobar/jquery-mask-plugin" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="713" />
+    <option name="width" value="734" />
+    <option name="height" value="907" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sgAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgAdmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Forms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sgAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sgAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\sgAdmin\resources\views\admin\bordero" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\sgAdmin\resources\views\admin\bordero" />
+      <recent name="C:\xampp\htdocs\sgAdmin\resources\views\admin\" />
+      <recent name="C:\xampp\htdocs\sgAdmin\resources\views\admin\index" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7aac8aad-3e9c-4172-9295-b1a7feae55df" name="Default Changelist" comment="" />
+      <created>1559089180967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559089180967</updated>
+      <workItem from="1559089184212" duration="31000" />
+      <workItem from="1559089240135" duration="1281000" />
+      <workItem from="1559131449394" duration="19711000" />
+      <workItem from="1560599383217" duration="86000" />
+      <workItem from="1560602885118" duration="1341000" />
+      <workItem from="1560616586933" duration="545000" />
+      <workItem from="1560621220418" duration="1074000" />
+      <workItem from="1560773712717" duration="9066000" />
+      <workItem from="1560787411051" duration="4999000" />
+      <workItem from="1560809534922" duration="4869000" />
+      <workItem from="1560858948552" duration="1810000" />
+      <workItem from="1560868444704" duration="597000" />
+      <workItem from="1560874951702" duration="1262000" />
+      <workItem from="1560876644857" duration="8000" />
+      <workItem from="1560890505444" duration="164000" />
+      <workItem from="1560953592597" duration="464000" />
+      <workItem from="1560974519513" duration="5641000" />
+      <workItem from="1560980660268" duration="145000" />
+      <workItem from="1560980932934" duration="13077000" />
+      <workItem from="1561120013513" duration="8173000" />
+      <workItem from="1561338089410" duration="98000" />
+      <workItem from="1561338773910" duration="696000" />
+      <workItem from="1561415950905" duration="18119000" />
+      <workItem from="1562774853669" duration="367000" />
+      <workItem from="1562871042798" duration="29000" />
+      <workItem from="1562871235451" duration="40000" />
+      <workItem from="1563210461713" duration="62504000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="156197000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="916" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1704871" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
+      <window_info anchor="bottom" id="Database Changes" order="7" weight="0.32974428" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32733223" />
+      <window_info anchor="bottom" id="Database Console" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.22063038" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2387755" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
+      <window_info anchor="bottom" id="Database Changes" order="7" weight="0.32974428" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32733223" />
+      <window_info anchor="bottom" id="Database Console" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.22142857" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/UtilizacaoDeRecurso.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/jeroennoten/laravel-adminlte/resources/lang/pt-br/adminlte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/vendor/laravel-form-builder/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/laravel-form-builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/TipoRecebivel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Carteira.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1134" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dusuario_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_28_211343_create_dbanco_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="e#33#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="54" column="5" selection-start-line="22" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#45#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/vendor/adminlte/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kris/laravel-form-builder/src/Kris/LaravelFormBuilder/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2718">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/adminlte/vendor/bootstrap/dist/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/helpers/flash-message.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e740aa47-de6b-410a-9129-abace64c3f4c/database/SafeGold/schema/public/table/dbanco">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="5dd9bfe0-47ac-459f-a100-9813383f1443">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e740aa47-de6b-410a-9129-abace64c3f4c/database/SafeGold/schema/public/table/dusuario">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="5dd9bfe0-47ac-459f-a100-9813383f1443">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/vendor/adminlte/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/vendor/adminlte/page.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e740aa47-de6b-410a-9129-abace64c3f4c/database/SafeGold/schema/public/table/fbordero">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="5dd9bfe0-47ac-459f-a100-9813383f1443">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e740aa47-de6b-410a-9129-abace64c3f4c/database/SafeGold/schema/public/table/dtarifa">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="5dd9bfe0-47ac-459f-a100-9813383f1443">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Forms/TarifaBorderoForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#28#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6534">
+          <caret line="363" selection-start-line="363" selection-end-line="363" />
+          <folding>
+            <element signature="e#139#165#0#HTML" expanded="true" />
+            <element signature="e#238#285#0#HTML" expanded="true" />
+            <element signature="e#343#394#0#HTML" expanded="true" />
+            <element signature="e#726#782#0#HTML" expanded="true" />
+            <element signature="e#1121#1177#0#HTML" expanded="true" />
+            <element signature="e#1498#1554#0#HTML" expanded="true" />
+            <element signature="e#1920#1976#0#HTML" expanded="true" />
+            <element signature="e#2278#2334#0#HTML" expanded="true" />
+            <element signature="e#2689#2745#0#HTML" expanded="true" />
+            <element signature="e#3104#3160#0#HTML" expanded="true" />
+            <element signature="e#3577#3633#0#HTML" expanded="true" />
+            <element signature="e#3946#4002#0#HTML" expanded="true" />
+            <element signature="e#4330#4386#0#HTML" expanded="true" />
+            <element signature="e#4729#4785#0#HTML" expanded="true" />
+            <element signature="e#5137#5193#0#HTML" expanded="true" />
+            <element signature="e#5522#5578#0#HTML" expanded="true" />
+            <element signature="e#5902#5958#0#HTML" expanded="true" />
+            <element signature="e#6294#6350#0#HTML" expanded="true" />
+            <element signature="e#6717#6773#0#HTML" expanded="true" />
+            <element signature="e#7083#7139#0#HTML" expanded="true" />
+            <element signature="e#7278#7334#0#HTML" expanded="true" />
+            <element signature="e#7654#7710#0#HTML" expanded="true" />
+            <element signature="e#8094#8150#0#HTML" expanded="true" />
+            <element signature="e#8272#8328#0#HTML" expanded="true" />
+            <element signature="e#8450#8506#0#HTML" expanded="true" />
+            <element signature="e#8834#8890#0#HTML" expanded="true" />
+            <element signature="e#9257#9313#0#HTML" expanded="true" />
+            <element signature="e#9639#9695#0#HTML" expanded="true" />
+            <element signature="e#9833#9889#0#HTML" expanded="true" />
+            <element signature="e#10209#10265#0#HTML" expanded="true" />
+            <element signature="e#10630#10686#0#HTML" expanded="true" />
+            <element signature="e#11014#11070#0#HTML" expanded="true" />
+            <element signature="e#11192#11248#0#HTML" expanded="true" />
+            <element signature="e#11568#11624#0#HTML" expanded="true" />
+            <element signature="e#12196#12252#0#HTML" expanded="true" />
+            <element signature="e#12678#12734#0#HTML" expanded="true" />
+            <element signature="e#13274#13330#0#HTML" expanded="true" />
+            <element signature="e#13746#13802#0#HTML" expanded="true" />
+            <element signature="e#14269#14325#0#HTML" expanded="true" />
+            <element signature="e#13740#13767#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TarifaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#40#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/TarifaBancariaPorBordero.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TarifaBorderoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e740aa47-de6b-410a-9129-abace64c3f4c/database/SafeGold/schema/public/table/fbortarifa">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="5dd9bfe0-47ac-459f-a100-9813383f1443">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/TarifaBancaria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/_tarifas.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../auxiliar/sgAdmin/app/Http/Controllers/BorderoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/adminlte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="121" column="44" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3180">
+          <caret line="161" column="49" selection-start-line="161" selection-start-column="49" selection-end-line="161" selection-end-column="49" />
+          <folding>
+            <element signature="e#109#135#0#HTML" expanded="true" />
+            <element signature="e#827#834#1#HTML" expanded="true" />
+            <element signature="e#2306#2359#0#HTML" expanded="true" />
+            <element signature="e#483#510#0#HTML" expanded="true" />
+            <element signature="e#886#913#0#HTML" expanded="true" />
+            <element signature="e#1268#1295#0#HTML" expanded="true" />
+            <element signature="e#1648#1675#0#HTML" expanded="true" />
+            <element signature="e#2448#2475#0#HTML" expanded="true" />
+            <element signature="e#2805#2832#0#HTML" expanded="true" />
+            <element signature="e#3219#3246#0#HTML" expanded="true" />
+            <element signature="e#3637#3664#0#HTML" expanded="true" />
+            <element signature="e#4125#4152#0#HTML" expanded="true" />
+            <element signature="e#4497#4524#0#HTML" expanded="true" />
+            <element signature="e#6871#6898#0#HTML" expanded="true" />
+            <element signature="e#5292#5319#0#HTML" expanded="true" />
+            <element signature="e#5729#5756#0#HTML" expanded="true" />
+            <element signature="e#6101#6128#0#HTML" expanded="true" />
+            <element signature="e#6487#6514#0#HTML" expanded="true" />
+            <element signature="e#6885#6912#0#HTML" expanded="true" />
+            <element signature="e#7322#7349#0#HTML" expanded="true" />
+            <element signature="e#7694#7721#0#HTML" expanded="true" />
+            <element signature="e#7860#7887#0#HTML" expanded="true" />
+            <element signature="e#8258#8285#0#HTML" expanded="true" />
+            <element signature="e#8703#8730#0#HTML" expanded="true" />
+            <element signature="e#8868#8895#0#HTML" expanded="true" />
+            <element signature="e#9033#9060#0#HTML" expanded="true" />
+            <element signature="e#9423#9450#0#HTML" expanded="true" />
+            <element signature="e#9860#9887#0#HTML" expanded="true" />
+            <element signature="e#10248#10275#0#HTML" expanded="true" />
+            <element signature="e#10413#10440#0#HTML" expanded="true" />
+            <element signature="e#10811#10838#0#HTML" expanded="true" />
+            <element signature="e#11246#11273#0#HTML" expanded="true" />
+            <element signature="e#11636#11663#0#HTML" expanded="true" />
+            <element signature="e#11801#11828#0#HTML" expanded="true" />
+            <element signature="e#12183#12210#0#HTML" expanded="true" />
+            <element signature="e#12808#12835#0#HTML" expanded="true" />
+            <element signature="e#13288#13315#0#HTML" expanded="true" />
+            <element signature="e#13906#13933#0#HTML" expanded="true" />
+            <element signature="e#14384#14411#0#HTML" expanded="true" />
+            <element signature="e#14925#14952#0#HTML" expanded="true" />
+            <element signature="e#15484#15511#0#HTML" expanded="true" />
+            <element signature="e#18030#18067#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Forms/BorderoForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#29#43#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Bordero.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="136" column="61" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BorderoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="88" column="74" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
