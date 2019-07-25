@@ -3,15 +3,11 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-    <div class="box box-header">
-        <div class="row" style="padding-left: 15px">
+    <div class="box box-header" style="height: 10%">
             <h2>Editar Bordero</h2>
-        </div>
     </div>
 @endsection
-<style>
 
-</style>
 @section('content')
 
     <!-- Create Modal -->

@@ -20,7 +20,7 @@ class BorderoController extends Controller
     {
         $borderos = Bordero::with(['dbanco', 'dprojeto'])
             ->orderBy('bor_dataope', 'desc')
-            ->paginate(8);
+            ->paginate(9);
 
         return view('admin.bordero.index', compact("borderos"));
     }

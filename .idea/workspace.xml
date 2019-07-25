@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aac8aad-3e9c-4172-9295-b1a7feae55df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Forms/BorderoForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Forms/BorderoForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BorderoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BorderoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TarifaBorderoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TarifaBorderoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bordero/_tarifas.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/bordero/_tarifas.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bordero/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/bordero/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/bordero/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/bordero/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/bordero/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/bordero/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,10 +117,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="753" column="15" selection-start-line="753" selection-start-column="15" selection-end-line="753" selection-end-column="15" />
+            <state relative-caret-position="216">
+              <caret line="76" column="65" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="65" />
               <folding>
-                <element signature="e#146#193#0#HTML" expanded="true" />
+                <element signature="e#120#139#0#HTML" expanded="true" />
                 <element signature="e#310#2298#0#HTML" />
                 <element signature="e#818#825#1#HTML" expanded="true" />
                 <element signature="e#2775#2782#1#HTML" expanded="true" />
@@ -280,11 +274,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/_tarifa-edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
               </folding>
@@ -323,10 +317,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+              <folding>
+                <element signature="e#120#156#0#HTML" expanded="true" />
+                <element signature="e#272#297#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/_tarifas.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="n#style#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
               </folding>
@@ -334,25 +341,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BorderoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="96" column="40" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
+            <state relative-caret-position="253">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#40#56#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#7#389#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -362,7 +357,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bor_cst_efetivo</find>
       <find>cst</find>
       <find>select2</find>
       <find>'class'=&gt;'form-horizontal',</find>
@@ -391,6 +385,7 @@
       <find>{{'R$'.number_format($tarifa-&gt;tab_valor, 2, ',', '.') }}</find>
       <find>fa fa</find>
       <find>updateFareModal</find>
+      <find>content_header</find>
       <find>update-rate-submit</find>
     </findStrings>
     <replaceStrings>
@@ -451,7 +446,6 @@
         <option value="$PROJECT_DIR$/resources/views/helpers/flash-message.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/adminlte/page.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/adminlte/master.blade.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/app/TarifaBancaria.php" />
         <option value="$PROJECT_DIR$/app/Forms/TarifaBorderoForm.php" />
         <option value="$PROJECT_DIR$/app/Bordero.php" />
@@ -460,15 +454,16 @@
         <option value="$PROJECT_DIR$/resources/views/admin/bordero/show.blade.php" />
         <option value="$PROJECT_DIR$/config/adminlte.php" />
         <option value="$PROJECT_DIR$/app/Forms/BorderoForm.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/BorderoController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/bordero/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/bordero/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/bordero/_tarifas.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/bordero/_tarifa.edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/bordero/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TarifaBorderoController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/bordero/_tarifa-edit.blade.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/resources/views/admin/bordero/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/bordero/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BorderoController.php" />
       </list>
     </option>
   </component>
@@ -568,7 +563,7 @@
       <path value="$PROJECT_DIR$/vendor/igorescobar/jquery-mask-plugin" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="713" />
     <option name="width" value="734" />
     <option name="height" value="907" />
@@ -714,12 +709,12 @@
       <workItem from="1563210461713" duration="64606000" />
       <workItem from="1563801354768" duration="608000" />
       <workItem from="1563826747484" duration="12032000" />
-      <workItem from="1563889672060" duration="45122000" />
+      <workItem from="1563889672060" duration="48511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216061000" />
+    <option name="totallyTimeSpent" value="219450000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -731,10 +726,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="916" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27936962" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18696275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -954,13 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://e740aa47-de6b-410a-9129-abace64c3f4c/database/SafeGold/schema/public/table/dusuario">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="5dd9bfe0-47ac-459f-a100-9813383f1443">
-          <filtering />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/vendor/adminlte/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1075,17 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="52" column="118" selection-start-line="52" selection-start-column="104" selection-end-line="52" selection-end-column="118" />
-          <folding>
-            <element signature="e#146#196#0#HTML" expanded="true" />
-            <element signature="e#312#339#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1099,27 +1076,10 @@
     <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/_tarifas.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="n#style#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BorderoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="96" column="40" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Bordero.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="134" column="20" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1130,6 +1090,22 @@
           <folding>
             <element signature="e#40#63#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/TarifaBancariaPorBordero.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="52" column="27" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e740aa47-de6b-410a-9129-abace64c3f4c/database/SafeGold/schema/public/table/dusuario">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="475bb1e1-7421-4909-93f1-b041e29ea9d3">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
@@ -1201,12 +1177,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/_tarifa-edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="753" column="15" selection-start-line="753" selection-start-column="15" selection-end-line="753" selection-end-column="15" />
+        <state relative-caret-position="216">
+          <caret line="76" column="65" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="65" />
           <folding>
-            <element signature="e#146#193#0#HTML" expanded="true" />
+            <element signature="e#120#139#0#HTML" expanded="true" />
             <element signature="e#310#2298#0#HTML" />
             <element signature="e#818#825#1#HTML" expanded="true" />
             <element signature="e#2775#2782#1#HTML" expanded="true" />
@@ -1277,10 +1263,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/TarifaBancariaPorBordero.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="52" column="27" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="27" />
+        <state relative-caret-position="396">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#120#156#0#HTML" expanded="true" />
+            <element signature="e#272#297#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1294,12 +1284,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/bordero/_tarifa-edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Bordero.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="393">
+          <caret line="134" column="20" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BorderoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="e#40#56#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

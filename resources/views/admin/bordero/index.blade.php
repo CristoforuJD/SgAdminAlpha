@@ -3,15 +3,13 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-    <div class="box box-header">
-        <div class="row" style="padding-left: 15px; padding-bottom: -5px; margin-bottom: 0px">
+    <div class="box box-header" style="height: 10%" >
             <h2>Antecipação de Recebíveis</h2>
-        </div>
     </div>
 @endsection
 
 @section('content')
-    <div class="box box-body table" style="padding-top:-15px">
+    <div class="box box-body box-info" style="margin-top: -25px">
         <a href="{{ route('bordero.create') }}" class="btn btn-primary">Criar Bordero</a>
         @if (count($borderos) > 0)
             <table class="table table-bordered table-hover table-striped dataTable"
