@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-    <div class="row" style="padding-left: 15px">
+    <div class="box box-header" style="height: 10%">
         <h2>Cadastrar Bordero</h2>
     </div>
 @endsection
