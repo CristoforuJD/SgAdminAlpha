@@ -19,7 +19,10 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::group(['prefix' => 'admin'], function () {
         Route::get('/bordero/{bordero}/rates', 'TarifaBorderoController@index')->name('bordero.rates');
-        Route::post('/bordero/{bordero}/rates/{rate}', 'TarifaBorderoController@create')->name('bordero.rates.create');
+        Route::post('/bordero/{bordero}/rates/{rate}', 'TarifaBorderoController@store')->name('bordero.rates.create');
+        Route::delete('/bordero/{bordero}/rates/{rate}', 'TarifaBorderoController@destroy')->name('bordero.rates.destroy');
+        Route::get('/bordero/{bordero}/rates/{rate}/edit', 'TarifaBorderoController@edit')->name('bordero.rates.edit');
+        Route::put('/bordero/{bordero}/rates/{rate}', 'TarifaBorderoController@update')->name('bordero.rates.update');
         Route::resource('bordero', 'BorderoController');
         Route::resource('rate', 'TarifaController');
     });

@@ -33,6 +33,17 @@ class TarifaBorderoController extends Controller
      */
     public function create(Bordero $bordero, TarifaBancaria $rate, Request $request)
     {
+
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Bordero $bordero, TarifaBancaria $rate, Request $request)
+    {
         $value = $request->get('amount');
 
         try {
@@ -50,17 +61,6 @@ class TarifaBorderoController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
      * Display the specified resource.
      *
      * @param  int  $id
@@ -72,26 +72,39 @@ class TarifaBorderoController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param Bordero $bordero
+     * @param TarifaBancariaPorBordero $rate
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function edit($id)
+    public function edit(Bordero $bordero, TarifaBancariaPorBordero $rate)
     {
-        //
+        return view('admin.bordero._tarifa-edit', [
+            'rate' => $rate,
+            'bordero' => $bordero,
+        ]);
     }
 
     /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @param Bordero $bordero
+     * @param TarifaBancariaPorBordero $rate
+     * @return \Illuminate\Http\JsonResponse
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Bordero $bordero, TarifaBancariaPorBordero $rate)
     {
-        //
+        $value = $request->get('amount');
+
+        try {
+            $rate->update([
+                'tab_valor' => $value,
+            ]);
+
+            return response()->json($rate->toArray());
+        } catch (\Exception $e) {
+            return response()->json([
+                'message' => $e->getMessage()
+            ], 500);
+        }
     }
 
     /**
@@ -100,8 +113,16 @@ class TarifaBorderoController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Bordero $bordero, TarifaBancariaPorBordero $rate)
     {
-        //
+        try {
+            $rate->delete();
+
+            return response()->json($rate->toArray());
+        } catch (\Exception $e) {
+            return response()->json([
+                'message' => $e->getMessage(),
+            ], 500);
+        }
     }
 }
