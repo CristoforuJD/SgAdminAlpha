@@ -50,7 +50,7 @@
 {{-- ######################################--}}
                             <td align="center">
                                 <!-- show the nerd (uses the show method found at GET /nerds/{id} -->
-                                <a class="btn btn-sm btn-success" href="{{ route('bordero.show',$bordero->bor_id) }}">MOSTRAR</a>
+{{--                                <a class="btn btn-sm btn-success" href="{{ route('bordero.show',$bordero->bor_id) }}">MOSTRAR</a>--}}
                                 <a href="{{route('bordero.edit',$bordero->bor_id)}}"
                                    class="btn btn-sm btn-info">EDIT</a>
                                 <button data-id="{{ $bordero->getKey() }}" class="btn btn-sm btn-danger delete-bordero">
