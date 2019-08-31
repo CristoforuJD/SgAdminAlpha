@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Utils\Number;
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -85,6 +86,68 @@ class Bordero extends Model
      */
     protected $fillable = ['pro_id', 'bco_id', 'car_id', 'tir_id', 'url_id', 'bor_dataope', 'bor_numero', 'bor_qtd_tit', 'bor_vlr_bruto', 'bor_qt_recusada', 'bor_vlr_bruto_recusado', 'bor_vlr_bruto_final', 'bor_qtd_final', 'bor_pz_med_emp', 'bor_pz_med_bco', 'bor_float_calc', 'bor_float_acordado', 'bor_vlr_liquido', 'bor_dtsis', 'bor_float_dif', 'bor_vlr_tot_tarifas', 'bor_chk_iof', 'bor_taxa_acordado', 'bor_vlr_liq_correto', 'bor_chk_liq', 'bor_status', 'bor_recompra', 'bor_per_recompra', 'bor_retencao', 'bor_per_retencao', 'bor_fomento', 'bor_per_fomento', 'bor_liq_recebido', 'bor_dt_cred', 'bor_contato', 'bor_tx_banco', 'bor_tx_empresa', 'bor_obs', 'bor_mutl_pm', 'bor_mutl_pm_float', 'bor_cst_sem_iof', 'bor_cst_com_iof', 'bor_dtupdate'];
 
+
+    /**
+     * @param $value
+     */
+    public function setBorVlrBrutoAttribute($value)
+    {
+        $this->attributes['bor_vlr_bruto'] = Number::unmask($value);
+    }
+    public function setBorRecompraAttribute($value)
+    {
+        $this->attributes['bor_recompra'] = Number::unmask($value);
+    }
+    public function setBorFomentoAttribute($value)
+    {
+        $this->attributes['bor_fomento'] = Number::unmask($value);
+    }
+    public function setBorCstComIofAttribute($value)
+    {
+        $this->attributes['bor_cst_com_iof'] = Number::unmask($value);
+    }
+    public function setBorVlrBrutoFinalAttribute($value)
+    {
+        $this->attributes['bor_vlr_bruto_final'] = Number::unmask($value);
+    }
+    public function setBorVlrBrutoRecusadoAttribute($value)
+    {
+        $this->attributes['bor_vlr_bruto_recusado'] = Number::unmask($value);
+    }
+    public function setBorVlrTotTarifasAttribute($value)
+    {
+        $this->attributes['bor_vlr_tot_tarifas'] = Number::unmask($value);
+    }
+    public function setBorVlrLiquidoAttribute($value)
+    {
+        $this->attributes['bor_vlr_liquido'] = Number::unmask($value);
+    }
+    public function setBorVlrLiquidoCorretoAttribute($value)
+    {
+        $this->attributes['bor_vlr_liq_correto'] = Number::unmask($value);
+    }
+    public function setBorPzMedEmpAttribute($value)
+    {
+        $this->attributes['bor_pz_med_emp'] = Number::unmask($value);
+    }
+    public function setBorPzMedBcoAttribute($value)
+    {
+        $this->attributes['bor_pz_med_bco'] = Number::unmask($value);
+    }
+    public function setBorFloatAcordadoAttribute($value)
+    {
+        $this->attributes['bor_float_acordado'] = Number::unmask($value);
+    }
+    public function setBorRetencaoAttribute($value)
+    {
+        $this->attributes['bor_retencao'] = Number::unmask($value);
+    }
+    public function setBorPerOutrosAttribute($value)
+    {
+        $this->attributes['bor_per_outros'] = Number::unmask($value);
+    }
+
+
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
@@ -144,4 +207,7 @@ class Bordero extends Model
     {
         return $this->hasMany('App\Fbortitulo', 'bor_id', 'bor_id');
     }
+
+
+
 }

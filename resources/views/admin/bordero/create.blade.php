@@ -3,8 +3,10 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-    <div class="box box-header" style="height: 10%">
-        <h2>Cadastrar Bordero</h2>
+    <div class="box box-header" style="height: 12%">
+        <a href="{{route('bordero.index')}}" class="fa fa-arrow-left"
+           style="padding: 0px; background-color: white"><span></span></a>
+        <h2 style="padding:0px;">Cadastrar Borderô</h2>
     </div>
 @endsection
 <style>
@@ -15,7 +17,7 @@
 
 
 
-    <div class="box box-body box-info" style=" margin-top: -25px;">
+    <div class="box box-body box-info" style=" margin-top: -15px;">
         <div class="col-md-12 justify-content-between">
             {{--            PRIMEIRA LINHA--}}
             <div class="row">
@@ -36,7 +38,7 @@
                 <div class="col-md-3 justify-content-between" style="padding: 0px;">
 
                     <div class="col-md-3 justify-content-between" style="padding: 0px;">
-                        <label style=" " >Data Op.</label>
+                        <label style=" ">Data Op.</label>
                     </div>
                     <div class=" col-md-9">
                         <div class="form-group-sm">
@@ -569,8 +571,6 @@
             </div>
 
 
-
-
             <div class="btn-group col-md-12">
                 {!! form_widget($form->submit) !!}
             </div>
@@ -659,6 +659,12 @@
 @endsection
 
 @section('js')
-    <script> console.log('Hi!'); </script>
+    <script>
+        $(document).ready(function () {
+            $(".alert").fadeTo(2000, 500).slideUp(500, function () {
+                $(".alert").slideUp(500);
+            });
+        });
+    </script>
 @endsection
 

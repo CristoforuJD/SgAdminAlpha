@@ -4,51 +4,53 @@
 
 @section('content_header')
     <div class="box box-header" style="height: 10%">
-            <h2>Editar Bordero</h2>
+
+        <a href="{{route('bordero.index')}}" class="fa fa-arrow-left" style="background-color: white"></a>
+        <h2>Editar Borderô</h2>
     </div>
 @endsection
 
 @section('content')
 
     <!-- Create Modal -->
-    <div class="modal fade" id="createFareModal" tabindex="-1" role="dialog" aria-labelledby="createFareModalLabel"
-         aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="createFareModalLabel">Nova Tarifa</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form id="add-rate" method="post" action="{{ route('bordero.rates.create', [
-                            'bordero' => $bordero->getKey(),
-                            'rate' => '_rate_id_'
-                        ]) }}"
-                    >
-                        <div class="row">
-                            <div class="col-md-4">
-                                <label>Tarifa: </label>
-                                <select class="form-control" id="rates"></select>
-                            </div>
-                            <div class="col-md-4">
-                                <label>Valor: </label>
-                                <div class="input-group">
-                                    <span class="input-group-addon">$</span>
-                                    <input id="rate-value" type="number" class="form-control"/>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
-                    <button id="add-rate-submit" type="button" class="btn btn-primary">Salvar</button>
-                </div>
-            </div>
-        </div>
-    </div>
+{{--    <div class="modal fade" id="createFareModal" tabindex="-1" role="dialog" aria-labelledby="createFareModalLabel"--}}
+{{--         aria-hidden="true">--}}
+{{--        <div class="modal-dialog" role="document">--}}
+{{--            <div class="modal-content">--}}
+{{--                <div class="modal-header">--}}
+{{--                    <h2 class="modal-title" id="createFareModalLabel">Nova Tarifa</h2>--}}
+{{--                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">--}}
+{{--                        <span aria-hidden="true">&times;</span>--}}
+{{--                    </button>--}}
+{{--                </div>--}}
+{{--                <div class="modal-body">--}}
+{{--                    <form id="add-rate" method="post" action="{{ route('bordero.rates.create', [--}}
+{{--                            'bordero' => $bordero->getKey(),--}}
+{{--                            'rate' => '_rate_id_'--}}
+{{--                        ]) }}"--}}
+{{--                    >--}}
+{{--                        <div class="row">--}}
+{{--                            <div class="col-md-4">--}}
+{{--                                <label>Tarifa: </label>--}}
+{{--                                <select class="form-control" id="rates"></select>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-md-4">--}}
+{{--                                <label>Valor: </label>--}}
+{{--                                <div class="input-group">--}}
+{{--                                    <span class="input-group-addon">$</span>--}}
+{{--                                    <input id="rate-value" type="number" class="form-control"/>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </form>--}}
+{{--                </div>--}}
+{{--                <div class="modal-footer">--}}
+{{--                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>--}}
+{{--                    <button id="add-rate-submit" type="button" class="btn btn-primary">Salvar</button>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
     <!-- Edit Modal -->
     <div class="modal fade" id="editFareModal" tabindex="-1" role="dialog" aria-labelledby="editFareModalLabel"
@@ -57,9 +59,6 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h2 class="modal-title" id="editFareModalLabel">Editar Tarifa</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
                 </div>
                 <div id="edit-fare-modal-body" class="modal-body"></div>
                 <div class="modal-footer">
@@ -164,12 +163,11 @@
                 <div class="col-md-3 justify-content-between" style="padding: 0px;">
 
                     <div class="col-md-5">
-                        <label style=" ">Vlr Bruto Bordero</label>
+                        <label>Vlr Bruto Bordero</label>
                     </div>
                     <div class="col-md-7">
                         <div class="form-group-sm">
                             {!! form_widget($form->bor_vlr_bruto) !!}
-
                         </div>
                     </div>
 
@@ -418,7 +416,8 @@
                     </div>
                     <div class=" col-md-5">
                         <div class="form-group-sm ">
-                            {!! form_widget($form->bor_tx_empresa) !!}
+
+                            {!! form_widget($form->bor_tx_empresa)!!}
                         </div>
                     </div>
 
@@ -608,35 +607,56 @@
             <div class="btn-group col-md-12">
                 {!! form_widget($form->submit) !!}
             </div>
+
+            <div class="hidden">
+                {!! form_rest($form) !!}
+            </div>
+
+            {!! form_end($form) !!}
         </div>
         <div class="col-md-3 justify-content-between" style=" padding: 0px">
+            <h2>Tarifas Borderô</h2>
             <div class="box box-header" style="box-shadow: #7a869d">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#createFareModal">
+
+                <button type="button" class="btn btn-primary" id="btnCreateRate">
                     Nova Tarifa
                 </button>
 
-                <div id="tarifas" class="table-responsive-sm"></div>
+                <div id="tarifas" class="table-responsive-sm">
+
+                </div>
+
+                <div id="rowInsertRate" class="row hidden">
+                    <form id="add-rate" method="post" action="{{ route('bordero.rates.create', [
+                            'bordero' => $bordero->getKey(),
+                            'rate' => '_rate_id_'
+                        ]) }}"
+                    >
+                            <div class="col-sm-6">
+                                <select class="form-control" id="rates"></select>
+                            </div>
+                            <div class="col-sm-6">
+                                <input id="rate-value" type="number" class="form-control"/>
+                            </div>
+
+                            <div class="col-sm-12" style="margin-top: 8px">
+                                <button id="add-rate-submit" type="submit" class="btn btn-primary btn-sm btn-block form-control">
+                                    Salvar
+                                </button>
+                            </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="hidden">
-        {!! form_rest($form) !!}
-    </div>
-    {!! form_end($form) !!}
 @endsection
 
 @section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
 @endsection
 
 @section('js')
-    <script>
-        $(document).ready(function () {
-            // $('.money').mask('000.000.000.000.000,00', {reverse: true});
-        });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
     <script>
         function loadBorderoRates() {
             $.ajax({
@@ -691,13 +711,22 @@
         $(document).ready(function () {
             loadBorderoRates();
 
+            //$('#money').mask('000.000.000.000.000,00', {reverse: true});
+
             $("#createFareModal").on('show.bs.modal', function () {
                 loadRates();
             });
 
-            $("#add-rate-submit").on('click', function () {
-                $("#add-rate").submit();
+            $("#btnCreateRate").on('click', function () {
+                $('#rowInsertRate').removeClass('hidden');
+                loadRates();
             });
+
+           // $(document).on('click', "#add-rate-submit", function () {
+                //console.log('teste');
+                //document.getElementById("add-rate").submit();
+                //$("#add-rate").submit();
+            //});
 
             $("#update-rate-submit").on('click', function () {
                 var value = $('#rate-value-edit').val();
@@ -715,12 +744,13 @@
                     },
                     success: function (response) {
                         loadBorderoRates();
-                        $('#editFareModal').modal('toggle');
+                         $('#editFareModal').modal('toggle');
                     },
                     error: function (error) {
                         console.log(error);
                     },
                 });
+
             });
 
             $("#add-rate").on('submit', function (e) {
@@ -741,7 +771,8 @@
                     },
                     success: function (response) {
                         loadBorderoRates();
-                        $('#createFareModal').modal('toggle');
+                        $('#rowInsertRate').addClass('hidden');
+                        // $('#createFareModal').modal('toggle');
                     },
                     error: function (error) {
                         console.log(error);
@@ -774,8 +805,6 @@
 
             $(document).on('click', '.update-rate', function () {
                 const rateId = $(this).data('id');
-
-                console.log('rate ' + rateId);
 
                 loadRate(rateId);
 

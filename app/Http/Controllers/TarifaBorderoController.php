@@ -23,7 +23,7 @@ class TarifaBorderoController extends Controller
 
         $tarifas = $bordero->fbortarifas()->with(['dtarifa'])->get();
 
-        return view('admin.bordero._tarifas', compact("tarifas"));
+        return view('admin.bordero._tarifas', compact("tarifas","bordero"));
     }
 
     /**

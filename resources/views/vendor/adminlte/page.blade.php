@@ -133,6 +133,13 @@
 
 @section('adminlte_js')
     <script src="{{ asset('vendor/adminlte/dist/js/adminlte.min.js') }}"></script>
+    <script>
+        $(document).ready(function () {
+            $(".flash-message").fadeTo(2000, 500).slideUp(500, function(){
+                $(".flash-message").slideUp(500);
+            });
+        });
+    </script>
     @stack('js')
     @yield('js')
 @stop

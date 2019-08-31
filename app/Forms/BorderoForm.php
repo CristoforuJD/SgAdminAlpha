@@ -12,6 +12,8 @@ use Kris\LaravelFormBuilder\Form;
 
 class BorderoForm extends Form
 {
+    //protected $name = 'borderoForm';
+
     public function buildForm()
     {
         $this
@@ -21,7 +23,8 @@ class BorderoForm extends Form
                 'property' => 'pro_nome',
                 //'label' => 'Projeto',
                 'label_show' => false,
-
+                'attr' => [
+                    'placeholder' => '--Selecione--']
             ])
             //feito
             ->add('bco_id', 'entity', [
@@ -36,7 +39,7 @@ class BorderoForm extends Form
                 'class' => Carteira::class,
                 'property' => 'car_nome',
                 //'label' => 'Carteira',
-                'label_show'=> false,
+                'label_show' => false,
                 'attr' => [
                     'placeholder' => '--Selecione--']
             ])
@@ -45,7 +48,7 @@ class BorderoForm extends Form
                 'class' => TipoRecebivel::class,
                 'property' => 'tir_nome',
                 //'label' => 'Tipo Recebivel',
-                'label_show'=>'false',
+                'label_show' => 'false',
                 'attr' => [
                     'placeholder' => '--Selecione--']
             ])
@@ -54,86 +57,111 @@ class BorderoForm extends Form
                 'class' => UtilizacaoDeRecurso::class,
                 'property' => 'url_nome',
                 //'label' => 'Utilização do Recurso',
-                'label_show'=>false,
+                'label_show' => false,
                 'attr' => [
                     'placeholder' => '--Selecione--']
             ])
             ->add('bor_dataope', 'date', [
                 //'label' => 'Data da Operação',
-                'label_show'=>false,
+                'label_show' => false,
                 'attr' => []
             ])
             ->add('bor_numero', 'number', [
                 //'label' => 'Numero do Bordero',
-                'label_show'=>'false',
+                'label_show' => 'false',
                 'default_value' => '0',
             ])
             ->add('bor_qtd_tit', 'number', [
                 //'label' => 'Quantidade de Titulos',
-                'label_show'=>'false',
+                'label_show' => 'false',
                 'default_value' => '0'
             ])
-
             ->add('bor_qt_recusada', 'number', [
                 //'label' => 'Quantidade Recusada',
-                'label_show'=>'false',
+                'label_show' => 'false',
                 'default_value' => '0'
             ])
             ->add('bor_qtd_final', 'number', [
                 //'label' => 'Total de Titulos',
-                'label_show'=>'false',
+                'label_show' => 'false',
                 'tag' => 'div', // Tag to be used for holding static data,
                 'attr' => ['class' => 'form-control', 'placeholder' => '0', 'disabled'],
             ])
-            ->add('bor_vlr_bruto', 'number', [
+            ->add('bor_vlr_bruto', 'text', [
                 //'label' => 'Valor Bruto do Bordero',
-                'label_show'=>'false',
-                'default_value' => '0'
-            ])
-
-            ->add('bor_vlr_bruto_recusado', 'number', [
-                //'label' => 'Valor Bruto Recusado',
-                'label_show'=>'false',
+                'label_show' => 'false',
                 'default_value' => '0',
-            ])
+                'attr' => [
 
-            ->add('bor_vlr_bruto_final', 'number', [
+                    'data-mask' => '000.000.000,00',
+                    'data-mask-reverse' => 'true',
+                ],
+            ])
+            ->add('bor_vlr_bruto_recusado', 'text', [
+                //'label' => 'Valor Bruto Recusado',
+                'label_show' => 'false',
+                'default_value' => '0',
+                'attr' => [
+
+                    'data-mask' => '000.000.000,00',
+                    'data-mask-reverse' => 'true',
+                ],
+            ])
+            ->add('bor_vlr_bruto_final', 'text', [
                 //'label' => 'Valor Bruto Final',
-                'label_show'=>'false',
+                'label_show' => 'false',
                 'tag' => 'div', // Tag to be used for holding static data,
-                'attr' => ['class' => 'form-control', 'placeholder' => '0', 'disabled'],
+                'attr' => ['class' => 'form-control',
+                    'placeholder' => '0',
+                    'data-mask' => '000.000.000,00',
+                    'data-mask-reverse' => 'true',
+                    'disabled'],
             ])
-            ->add('bor_vlr_tot_tarifas', 'number', [
+            ->add('bor_vlr_tot_tarifas', 'text', [
                 //'label' => 'Total das Tarifas',
-                'label_show'=>'false',
+                'label_show' => 'false',
                 'tag' => 'div', // Tag to be used for holding static data,
-                'attr' => ['class' => 'form-control', 'placeholder' => '0', 'disabled'],
+                'attr' => ['class' => 'form-control',
+                    'placeholder' => '0',
+                    'data-mask' => '000.000.000,00',
+                    'data-mask-reverse' => 'true',
+                    'disabled'],
             ])
-            ->add('bor_vlr_liquido', 'number', [
+            ->add('bor_vlr_liquido', 'text', [
                 //'label' => 'Valor Liquido Bordero',
-                'label_show'=>'false',
+                'label_show' => 'false',
                 'tag' => 'div', // Tag to be used for holding static data,
-                'attr' => ['class' => 'form-control', 'placeholder' => '0', 'disabled'],
+                'attr' => ['class' => 'form-control',
+                    'placeholder' => '0',
+                    'data-mask' => '000.000.000,00',
+                    'data-mask-reverse' => 'true',
+                    'disabled'],
             ])
-            ->add('bor_vlr_liq_correto', 'number', [
+            ->add('bor_vlr_liq_correto', 'text', [
                 //'label' => 'Valor Liquido Calculado',
-                'label_show'=>'false',
+                'label_show' => 'false',
                 'tag' => 'div', // Tag to be used for holding static data,
-                'attr' => ['class' => 'form-control', 'placeholder' => '0', 'disabled'],
+                'attr' => ['class' => 'form-control',
+                    'placeholder' => '0',
+                    'data-mask' => '000.000.000,00',
+                    'data-mask-reverse' => 'true',
+                    'disabled'],
             ])
             ->add('bor_chk_liq', 'number', [
                 //'label' => 'Diferença Valor Liquido',
-                'label_show'=>'false',
+                'label_show' => 'false',
                 'tag' => 'div', // Tag to be used for holding static data,
-                'attr' => ['class' => 'form-control', 'placeholder' => '0', 'disabled'],
+                'attr' => ['class' => 'form-control',
+                    'placeholder' => '0',
+
+                    'disabled'],
             ])
-            ->add('bor_status', 'text',[
+            ->add('bor_status', 'text', [
                 //'label'=>'Status de Diferença',
-                'label_show'=>'false',
+                'label_show' => 'false',
                 'tag' => 'div', // Tag to be used for holding static data,
                 'attr' => ['class' => 'form-control', 'placeholder' => 'Status', 'disabled'],
-                ])
-
+            ])
 //            ->add('bor_status', 'choice', [
 //                'label' => 'Status de Diferença',
 //                'choices' => ['OK' => 'OK', 'dif' => 'Diferença'],
@@ -147,112 +175,143 @@ class BorderoForm extends Form
 //            ])
             ->add('bor_dt_cred', 'date', [
                 //'label' => 'Data Credito',
-                'label_show'=>'false'
+                'label_show' => 'false'
             ])
-
-            ->add('bor_cst_com_iof', 'number', [
+            ->add('bor_cst_com_iof', 'text', [
                 //'label' => 'Custo Efetivo Acordado',
-                'label_show'=>'false',
-                'default_value' => '0'
+                'label_show' => 'false',
+                'default_value' => '0',
+                'attr' => [
+
+                    'data-mask' => '000.000.000,00',
+                    'data-mask-reverse' => 'true',
+                ],
             ])
-            ->add('bor_pz_med_emp', 'number', [
+            ->add('bor_pz_med_emp', 'text', [
                 //'label' => 'Prazo Méd. Pond. Emp.',
-                'label_show'=>'false',
-                'default_value' => '0'
-            ])
-            ->add('bor_pz_med_bco', 'number', [
-               // 'label' => 'Prazo Méd. Pond. Banco',
-                'label_show'=>'false',
-                'default_value' => '0'
-            ])
+                'label_show' => 'false',
+                'default_value' => '0',
+                'attr' => [
 
-            ->add('bor_float_acordado', 'number', [
+                    'data-mask' => '000.000.000,00',
+                    'data-mask-reverse' => 'true',
+                ],
+            ])
+            ->add('bor_pz_med_bco', 'text', [
+                // 'label' => 'Prazo Méd. Pond. Banco',
+                'label_show' => 'false',
+                'default_value' => '0',
+                'attr' => [
+
+                    'data-mask' => '000.000.000,00',
+                    'data-mask-reverse' => 'true',
+                ],
+            ])
+            ->add('bor_float_acordado', 'text', [
                 //'label' => 'Float Acordado',
-                'label_show'=>'false',
-                'default_value' => '0'
-            ])
+                'label_show' => 'false',
+                'default_value' => '0',
+                'attr' => [
 
+                    'data-mask' => '000.000.000,00',
+                    'data-mask-reverse' => 'true',
+                ],
+            ])
             ->add('bor_float_calc', 'number', [
                 //'label' => 'Float Calculado',
-                'label_show'=>'false',
+                'label_show' => 'false',
                 'tag' => 'div', // Tag to be used for holding static data,
                 'attr' => ['class' => 'form-control', 'placeholder' => '0', 'disabled'],
-                ])
-
-
+            ])
             ->add('bor_float_dif', 'number', [
                 //'label' => 'Diferença Float',
-                'label_show'=>'false',
+                'label_show' => 'false',
                 'tag' => 'div', // Tag to be used for holding static data,
                 'attr' => ['class' => 'form-control', 'placeholder' => '0', 'disabled'],
-                ])
-
-
+            ])
             ->add('bor_chk_iof', 'number', [
                 //'label' => 'Checagem IOF',
-                'label_show'=>'false',
+                'label_show' => 'false',
                 'tag' => 'div', // Tag to be used for holding static data,
                 'attr' => ['class' => 'form-control', 'placeholder' => '0', 'disabled'],
-                ])
-
+            ])
             ->add('bor_tx_empresa', 'number', [
-                'label_show'=>false,
+                'label_show' => false,
                 //'label_show'=>'false',
                 //'label' => 'Custo Efetivo Prazo Médio Com Float Acordado',
                 'tag' => 'div', // Tag to be used for holding static data,
-                'attr' => ['class' => 'form-control', 'placeholder' => '0', 'disabled'],
-                ])
+                'attr' => ['class' => 'form-control',
+                    'placeholder' => '0',
 
-
+                    'disabled'],
+            ])
             ->add('bor_cst_efetivo', 'number', [
-                'label_show'=>false,
-               // 'label_show'=>'false',
+                'label_show' => false,
+                // 'label_show'=>'false',
                 //'label' => 'Custo Efetivo Prazo Médio',
                 'tag' => 'div', // Tag to be used for holding static data,
                 'attr' => ['class' => 'form-control', 'placeholder' => '0', 'disabled'],
-                ])
-
-            ->add('bor_recompra', 'number', [
+            ])
+            ->add('bor_recompra', 'text', [
                 //'label' => 'Recompra',
-                'label_show'=>'false',
-                'default_value'=>'0',
-            ])
+                'label_show' => 'false',
+                'default_value' => '0',
+                'attr' => [
 
-            ->add('bor_retencao', 'number', [
+                    'data-mask' => '000.000.000,00',
+                    'data-mask-reverse' => 'true',
+                ],
+            ])
+            ->add('bor_retencao', 'text', [
                 //'label' => 'Retenção',
-                'label_show'=>'false',
-                'default_value'=>'0'
-            ])
+                'label_show' => 'false',
+                'default_value' => '0',
+                'attr' => [
 
-            ->add('bor_fomento', 'number', [
+                    'data-mask' => '000.000.000,00',
+                    'data-mask-reverse' => 'true',
+                ],
+            ])
+            ->add('bor_fomento', 'text', [
                 //'label' => 'Valor Desc. do Liq. para Fomento',
-                'label_show'=>'false',
-                'default_value'=>'0',
-                'label_attr' => ['class' => 'control-label', 'for' => $this->name],
-            ])
+                'label_show' => 'false',
+                'default_value' => '0',
+                'attr' => [
 
-            ->add('bor_per_outros', 'number', [
+                    'data-mask' => '000.000.000,00',
+                    'data-mask-reverse' => 'true',
+                ],
+            ])
+            ->add('bor_per_outros', 'text', [
                 //'label' => 'Outros Custos Fora da Operação',
-                'label_show'=>'false',
-                'default_value'=>'0'
-            ])
+                'label_show' => 'false',
+                'default_value' => '0',
+                'attr' => [
 
+                    'data-mask' => '000.000.000,00',
+                    'data-mask-reverse' => 'true',
+                ],
+            ])
             ->add('bor_taxa_acordado', 'number', [
                 //'label' => 'Taxa Acordada',
-                'label_show'=>'false'
+                'label_show' => 'false'
             ])
-
-            ->add('bor_liq_recebido', 'number', [
+            ->add('bor_liq_recebido', 'text', [
                 'label' => 'Valor Liquido Recebido',
-                'label_show'=>'false',
+                'label_show' => 'false',
                 'tag' => 'div', // Tag to be used for holding static data,
-                'attr' => ['class' => 'form-control', 'placeholder' => '0', 'disabled'],
-                ])
-
+                'attr' => ['class' => 'form-control',
+                    'placeholder' => '0',
+                    'data-mask' => '000.000.000,00',
+                    'data-mask-reverse' => 'true',
+                    'disabled'],
+            ])
             ->add('submit', 'submit', [
-                'label'=> 'Salvar',
+                'label' => 'Salvar',
                 'attr' => [
-                    'class' => 'btn btn-primary btn-block'
+                    'class' => 'btn btn-primary btn-block',
+//                    'name'=>'submitBorderoForm',
+//                    'id'=>'submitBorderoForm'
                 ]
             ]);
     }

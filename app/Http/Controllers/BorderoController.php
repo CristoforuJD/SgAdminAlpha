@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Bordero;
 use App\Forms\BorderoForm;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Kris\LaravelFormBuilder\FormBuilder;
 
 /**
@@ -18,9 +19,9 @@ class BorderoController extends Controller
      */
     public function index()
     {
-        $borderos = Bordero::with(['dbanco', 'dprojeto'])
-            ->orderBy('bor_dataope', 'desc')
-            ->paginate(9);
+        $borderos = Bordero::all();
+//            ->orderBy('bor_dataope', 'desc')
+//            ->paginate(9);
 
         return view('admin.bordero.index', compact("borderos"));
     }
@@ -66,12 +67,12 @@ class BorderoController extends Controller
      */
     public function edit(FormBuilder $formBuilder, Bordero $bordero)
     {
+        //DB::statement('SELECT tri_fbordero()', []);
         $form = $formBuilder->create(BorderoForm::class, [
             'method' => 'PUT',
             'url' => route('bordero.update', $bordero->getKey()),
             'model' => $bordero
         ]);
-
 
         return view('admin.bordero.edit', compact('form', 'bordero'));
     }
@@ -86,10 +87,18 @@ class BorderoController extends Controller
         try {
             $bordero->update($request->all());
 
-            return redirect()->route('bordero.index')->with('alert-success', 'Bordero Atualizado com Sucesso!');
+            return redirect()->back()->with('alert-success', 'Bordero Atualizado com Sucesso!');
         } catch (\Exception $e) {
             return redirect()->back()->with('Erro !');
         }
+
+//        try {
+//            $bordero->update($request->all());
+//
+//            return redirect()->route('bordero.index')->with('alert-success', 'Bordero Atualizado com Sucesso!');
+//        } catch (\Exception $e) {
+//            return redirect()->back()->with('Erro !');
+//        }
     }
 
 

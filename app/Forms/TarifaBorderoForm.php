@@ -6,6 +6,7 @@ use Kris\LaravelFormBuilder\Form;
 
 class TarifaBorderoForm extends Form
 {
+
     public function buildForm()
     {
         $this

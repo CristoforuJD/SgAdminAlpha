@@ -14,7 +14,8 @@
         "jeroennoten/laravel-adminlte": "^1.25",
         "kris/laravel-form-builder": "^1.20",
         "laravel/framework": "5.8.*",
-        "laravel/tinker": "^1.0"
+        "laravel/tinker": "^1.0",
+        "yajra/laravel-datatables-oracle": "^9.4"
     },
     "require-dev": {
         "appzcoder/crud-generator": "^3.0",
