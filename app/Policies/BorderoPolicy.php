@@ -45,13 +45,17 @@ class BorderoPolicy
      */
     public function update(User $user, Bordero $bordero)
     {
-
-        return $user->usu_id === ($bordero->dprojeto)->usu_gestor;
+        if($user->usu_id === ($bordero->dprojeto)->usu_gestor) {
+            return $user->usu_id === ($bordero->dprojeto)->usu_gestor;
+        }
+        return $user->usu_id === ($bordero->dprojeto)->usu_coord;
     }
     public function edit(User $user, Bordero $bordero)
     {
-
-        return $user->usu_id === ($bordero->dprojeto)->usu_gestor;
+        if($user->usu_id === ($bordero->dprojeto)->usu_gestor) {
+            return $user->usu_id === ($bordero->dprojeto)->usu_gestor;
+        }
+        return $user->usu_id === ($bordero->dprojeto)->usu_coord;
     }
 
     /**
@@ -63,8 +67,10 @@ class BorderoPolicy
      */
     public function delete(User $user, Bordero $bordero)
     {
-
-        return $user->usu_id === ($bordero->dprojeto)->usu_gestor;
+        if($user->usu_id === ($bordero->dprojeto)->usu_gestor) {
+            return $user->usu_id === ($bordero->dprojeto)->usu_gestor;
+        }
+        return $user->usu_id === ($bordero->dprojeto)->usu_coord;
     }
 
     /**
@@ -76,8 +82,10 @@ class BorderoPolicy
      */
     public function restore(User $user, Bordero $bordero)
     {
-
-        return $user->usu_id === ($bordero->dprojeto)->usu_gestor;
+        if($user->usu_id === ($bordero->dprojeto)->usu_gestor) {
+            return $user->usu_id === ($bordero->dprojeto)->usu_gestor;
+        }
+        return $user->usu_id === ($bordero->dprojeto)->usu_coord;
     }
 
     /**
@@ -89,7 +97,9 @@ class BorderoPolicy
      */
     public function forceDelete(User $user, Bordero $bordero)
     {
-
-        return $user->usu_id === ($bordero->dprojeto)->usu_gestor;
+        if($user->usu_id === ($bordero->dprojeto)->usu_gestor) {
+            return $user->usu_id === ($bordero->dprojeto)->usu_gestor;
+        }
+        return $user->usu_id === ($bordero->dprojeto)->usu_coord;
     }
 }

@@ -60,7 +60,7 @@
                                                style="font-family: 'Microsoft Sans Serif'; font-size: large">Projeto
                                                 <span class="caret"></span></a>
                                             <ul class="dropdown-menu" role="menu">
-                                               
+
                                                 <li><a href="#">BENDERPLAST</a></li>
                                                 <li class="divider"></li>
                                                 <li><a href="#">NOMA</a></li>
