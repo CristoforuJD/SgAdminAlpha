@@ -3,10 +3,19 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-    <div class="box box-header" style="height: 12%">
-        <a href="{{route('bordero.index')}}" class="fa fa-arrow-left"
-           style="padding: 0px; background-color: white"><span></span></a>
-        <h2 style="padding:0px;">Cadastrar Borderô</h2>
+    <div class="box box-header" style="height: 60px">
+
+        <div class="col-md-6" style="margin-left: -15px">
+            <div class="col-md-1" style="margin-top: 4px; margin-left: -10px">
+                <a href="{{route('bordero.index')}}" class="fa fa-arrow-left"
+                   style="font-size: 30px; background-color: white"></a>
+            </div>
+            <div class="col-md-9" style="margin-left: 10px">
+                <p style="font-size: 30px; height: 25px;  font-family: Helvetica Neue, Helvetica, Arial, sans-serif">Cadastrar Borderô</p>
+            </div>
+        </div>
+
+
     </div>
 @endsection
 <style>
@@ -29,6 +38,7 @@
                     </div>
                     <div class=" col-md-8">
                         <div class="form-group-sm ">
+
                             {!! form_widget($form->pro_id) !!}
 
                         </div>
@@ -536,6 +546,7 @@
                         <div class=" col-md-7">
                             <div class="form-group-sm ">
                                 {!! form_widget($form->bor_retencao) !!}
+
                             </div>
                         </div>
                     </div>
@@ -547,7 +558,8 @@
                         </div>
                         <div class=" col-md-7">
                             <div class="form-group-sm ">
-                                {!! form_widget($form->bor_per_outros) !!}
+                                {!! form_widget($form->bor_outros_cst) !!}
+
                             </div>
                         </div>
                     </div>
@@ -561,6 +573,7 @@
                     <div class="col-md-7">
                         <div class="form-group-lg">
                             {!! form_widget($form->bor_liq_recebido) !!}
+
 
                         </div>
                     </div>
@@ -659,6 +672,7 @@
 @endsection
 
 @section('js')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
     <script>
         $(document).ready(function () {
             $(".alert").fadeTo(2000, 500).slideUp(500, function () {

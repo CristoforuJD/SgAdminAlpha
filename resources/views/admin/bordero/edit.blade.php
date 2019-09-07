@@ -3,54 +3,63 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-    <div class="box box-header" style="height: 10%">
+    <div class="box box-header" style="height: 60px">
 
-        <a href="{{route('bordero.index')}}" class="fa fa-arrow-left" style="background-color: white"></a>
-        <h2>Editar Borderô</h2>
+        <div class="col-md-6" style="margin-left: -15px">
+            <div class="col-md-1" style="margin-top: 4px; margin-left: -10px">
+                <a href="{{route('bordero.index')}}" class="fa fa-arrow-left"
+                   style="font-size: 30px; background-color: white"></a>
+            </div>
+            <div class="col-md-9"  style="margin-left: 10px">
+                <p style="font-size: 30px; height: 25px;  font-family: Helvetica Neue, Helvetica, Arial, sans-serif">Editar Borderô</p>
+            </div>
+        </div>
+
+
     </div>
 @endsection
 
 @section('content')
 
     <!-- Create Modal -->
-{{--    <div class="modal fade" id="createFareModal" tabindex="-1" role="dialog" aria-labelledby="createFareModalLabel"--}}
-{{--         aria-hidden="true">--}}
-{{--        <div class="modal-dialog" role="document">--}}
-{{--            <div class="modal-content">--}}
-{{--                <div class="modal-header">--}}
-{{--                    <h2 class="modal-title" id="createFareModalLabel">Nova Tarifa</h2>--}}
-{{--                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">--}}
-{{--                        <span aria-hidden="true">&times;</span>--}}
-{{--                    </button>--}}
-{{--                </div>--}}
-{{--                <div class="modal-body">--}}
-{{--                    <form id="add-rate" method="post" action="{{ route('bordero.rates.create', [--}}
-{{--                            'bordero' => $bordero->getKey(),--}}
-{{--                            'rate' => '_rate_id_'--}}
-{{--                        ]) }}"--}}
-{{--                    >--}}
-{{--                        <div class="row">--}}
-{{--                            <div class="col-md-4">--}}
-{{--                                <label>Tarifa: </label>--}}
-{{--                                <select class="form-control" id="rates"></select>--}}
-{{--                            </div>--}}
-{{--                            <div class="col-md-4">--}}
-{{--                                <label>Valor: </label>--}}
-{{--                                <div class="input-group">--}}
-{{--                                    <span class="input-group-addon">$</span>--}}
-{{--                                    <input id="rate-value" type="number" class="form-control"/>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </form>--}}
-{{--                </div>--}}
-{{--                <div class="modal-footer">--}}
-{{--                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>--}}
-{{--                    <button id="add-rate-submit" type="button" class="btn btn-primary">Salvar</button>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
+    {{--    <div class="modal fade" id="createFareModal" tabindex="-1" role="dialog" aria-labelledby="createFareModalLabel"--}}
+    {{--         aria-hidden="true">--}}
+    {{--        <div class="modal-dialog" role="document">--}}
+    {{--            <div class="modal-content">--}}
+    {{--                <div class="modal-header">--}}
+    {{--                    <h2 class="modal-title" id="createFareModalLabel">Nova Tarifa</h2>--}}
+    {{--                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">--}}
+    {{--                        <span aria-hidden="true">&times;</span>--}}
+    {{--                    </button>--}}
+    {{--                </div>--}}
+    {{--                <div class="modal-body">--}}
+    {{--                    <form id="add-rate" method="post" action="{{ route('bordero.rates.create', [--}}
+    {{--                            'bordero' => $bordero->getKey(),--}}
+    {{--                            'rate' => '_rate_id_'--}}
+    {{--                        ]) }}"--}}
+    {{--                    >--}}
+    {{--                        <div class="row">--}}
+    {{--                            <div class="col-md-4">--}}
+    {{--                                <label>Tarifa: </label>--}}
+    {{--                                <select class="form-control" id="rates"></select>--}}
+    {{--                            </div>--}}
+    {{--                            <div class="col-md-4">--}}
+    {{--                                <label>Valor: </label>--}}
+    {{--                                <div class="input-group">--}}
+    {{--                                    <span class="input-group-addon">$</span>--}}
+    {{--                                    <input id="rate-value" type="number" class="form-control"/>--}}
+    {{--                                </div>--}}
+    {{--                            </div>--}}
+    {{--                        </div>--}}
+    {{--                    </form>--}}
+    {{--                </div>--}}
+    {{--                <div class="modal-footer">--}}
+    {{--                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>--}}
+    {{--                    <button id="add-rate-submit" type="button" class="btn btn-primary">Salvar</button>--}}
+    {{--                </div>--}}
+    {{--            </div>--}}
+    {{--        </div>--}}
+    {{--    </div>--}}
 
     <!-- Edit Modal -->
     <div class="modal fade" id="editFareModal" tabindex="-1" role="dialog" aria-labelledby="editFareModalLabel"
@@ -73,6 +82,7 @@
     {!! form_start($form) !!}
 
 
+
     <div class="box box-body box-info" style=" margin-top: -25px;">
         <div class="col-md-9 justify-content-between">
             {{--            PRIMEIRA LINHA--}}
@@ -85,7 +95,9 @@
                     </div>
                     <div class=" col-md-8">
                         <div class="form-group-sm ">
+
                             {!! form_widget($form->pro_id) !!}
+
                         </div>
                     </div>
 
@@ -167,6 +179,7 @@
                     </div>
                     <div class="col-md-7">
                         <div class="form-group-sm">
+
                             {!! form_widget($form->bor_vlr_bruto) !!}
                         </div>
                     </div>
@@ -546,6 +559,7 @@
                         </div>
                         <div class=" col-md-7">
                             <div class="form-group-sm ">
+
                                 {!! form_widget($form->bor_recompra) !!}
                             </div>
                         </div>
@@ -584,7 +598,7 @@
                         </div>
                         <div class=" col-md-7">
                             <div class="form-group-sm ">
-                                {!! form_widget($form->bor_per_outros) !!}
+                                {!! form_widget($form->bor_outros_cst) !!}
                             </div>
                         </div>
                     </div>
@@ -633,18 +647,19 @@
                             'rate' => '_rate_id_'
                         ]) }}"
                     >
-                            <div class="col-sm-6">
-                                <select class="form-control" id="rates"></select>
-                            </div>
-                            <div class="col-sm-6">
-                                <input id="rate-value" type="number" class="form-control"/>
-                            </div>
+                        <div class="col-sm-6">
+                            <select class="form-control" id="rates"></select>
+                        </div>
+                        <div class="col-sm-6">
+                            <input id="rate-value" type="number" class="form-control"/>
+                        </div>
 
-                            <div class="col-sm-12" style="margin-top: 8px">
-                                <button id="add-rate-submit" type="submit" class="btn btn-primary btn-sm btn-block form-control">
-                                    Salvar
-                                </button>
-                            </div>
+                        <div class="col-sm-12" style="margin-top: 8px">
+                            <button id="add-rate-submit" type="submit"
+                                    class="btn btn-primary btn-sm btn-block form-control">
+                                Salvar
+                            </button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -722,10 +737,10 @@
                 loadRates();
             });
 
-           // $(document).on('click', "#add-rate-submit", function () {
-                //console.log('teste');
-                //document.getElementById("add-rate").submit();
-                //$("#add-rate").submit();
+            // $(document).on('click', "#add-rate-submit", function () {
+            //console.log('teste');
+            //document.getElementById("add-rate").submit();
+            //$("#add-rate").submit();
             //});
 
             $("#update-rate-submit").on('click', function () {
@@ -744,7 +759,7 @@
                     },
                     success: function (response) {
                         loadBorderoRates();
-                         $('#editFareModal').modal('toggle');
+                        $('#editFareModal').modal('toggle');
                     },
                     error: function (error) {
                         console.log(error);

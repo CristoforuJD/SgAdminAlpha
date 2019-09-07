@@ -6,8 +6,8 @@
 
     <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" rel="stylesheet">
 
-    <div class="box box-header" style="height: 10%">
-        <h2>Antecipação de Recebíveis</h2>
+    <div class="box box-header" style="height: 60px ">
+        <p style="font-size: 30px; height: 25px;  font-family: Helvetica Neue, Helvetica, Arial, sans-serif">Antecipação de Recebíveis</p>
     </div>
 @endsection
 

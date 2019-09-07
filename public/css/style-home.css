@@ -10,7 +10,7 @@ html, body {
 #fundo {
     background-image: url('../img/fundo.gif');
     background-attachment: fixed;
-    background-size: cover;   
+    background-size: cover;
 }
 
 .full-height {

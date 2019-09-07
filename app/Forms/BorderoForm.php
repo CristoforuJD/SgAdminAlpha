@@ -24,7 +24,12 @@ class BorderoForm extends Form
                 //'label' => 'Projeto',
                 'label_show' => false,
                 'attr' => [
-                    'placeholder' => '--Selecione--']
+                    'placeholder' => '--Selecione--',
+                ],
+                'rules' => 'required',
+                'error_messages' => [
+                    'pro_id.required' => 'O campo "Projeto" é obrigatório!'
+                ]
             ])
             //feito
             ->add('bco_id', 'entity', [
@@ -33,7 +38,11 @@ class BorderoForm extends Form
                 //'label' => 'Portador',
                 'label_show' => false,
                 'attr' => [
-                    'placeholder' => '--Selecione--']
+                    'placeholder' => '--Selecione--'],
+                'rules' => 'required',
+                'error_messages' => [
+                    'bco_id.required' => 'O campo "Portador" é obrigatório!'
+                ]
             ])
             ->add('car_id', 'entity', [
                 'class' => Carteira::class,
@@ -41,7 +50,11 @@ class BorderoForm extends Form
                 //'label' => 'Carteira',
                 'label_show' => false,
                 'attr' => [
-                    'placeholder' => '--Selecione--']
+                    'placeholder' => '--Selecione--'],
+                'rules' => 'required',
+                'error_messages' => [
+                    'car_id.required' => 'O campo "Carteira" é obrigatório!'
+                ]
             ])
             //->add('tir_id', 'select')
             ->add('tir_id', 'entity', [
@@ -50,7 +63,11 @@ class BorderoForm extends Form
                 //'label' => 'Tipo Recebivel',
                 'label_show' => 'false',
                 'attr' => [
-                    'placeholder' => '--Selecione--']
+                    'placeholder' => '--Selecione--'],
+                'rules' => 'required',
+                'error_messages' => [
+                    'tir_id.required' => 'O campo "Típo Recebivel" é obrigatório!'
+                ]
             ])
             //->add('url_id', 'select')
             ->add('url_id', 'entity', [
@@ -59,7 +76,11 @@ class BorderoForm extends Form
                 //'label' => 'Utilização do Recurso',
                 'label_show' => false,
                 'attr' => [
-                    'placeholder' => '--Selecione--']
+                    'placeholder' => '--Selecione--'],
+                'rules' => 'required',
+                'error_messages' => [
+                    'url_id.required' => 'O campo "Utilização do Recurso" é obrigatório!'
+                ]
             ])
             ->add('bor_dataope', 'date', [
                 //'label' => 'Data da Operação',
@@ -240,6 +261,7 @@ class BorderoForm extends Form
                 //'label_show'=>'false',
                 //'label' => 'Custo Efetivo Prazo Médio Com Float Acordado',
                 'tag' => 'div', // Tag to be used for holding static data,
+
                 'attr' => ['class' => 'form-control',
                     'placeholder' => '0',
 
@@ -265,9 +287,8 @@ class BorderoForm extends Form
             ->add('bor_retencao', 'text', [
                 //'label' => 'Retenção',
                 'label_show' => 'false',
-                'default_value' => '0',
+                'default_value' => '0,00',
                 'attr' => [
-
                     'data-mask' => '000.000.000,00',
                     'data-mask-reverse' => 'true',
                 ],
@@ -282,7 +303,7 @@ class BorderoForm extends Form
                     'data-mask-reverse' => 'true',
                 ],
             ])
-            ->add('bor_per_outros', 'text', [
+            ->add('bor_outros_cst', 'text', [
                 //'label' => 'Outros Custos Fora da Operação',
                 'label_show' => 'false',
                 'default_value' => '0',

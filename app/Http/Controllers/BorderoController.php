@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Bordero;
+use App\User;
 use App\Forms\BorderoForm;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -19,7 +20,17 @@ class BorderoController extends Controller
      */
     public function index()
     {
-        $borderos = Bordero::all();
+
+
+        $borderos = Bordero::whereHas('dprojeto', function ($query) {
+            $user = auth()->user();
+            $query->where('usu_gestor', '=', $user->usu_id);
+            $query->orWhere('usu_coord', '=', $user->usu_id);
+        })->get();
+
+
+//       Para buscar todos os Borderos descomente a proxima linha
+        //$borderos = Bordero::all();
 //            ->orderBy('bor_dataope', 'desc')
 //            ->paginate(9);
 
@@ -45,6 +56,7 @@ class BorderoController extends Controller
      */
     public function store(Request $request)
     {
+
         try {
             Bordero::create($request->all());
 
@@ -59,7 +71,6 @@ class BorderoController extends Controller
     }
 
 
-
     /**
      * @param FormBuilder $formBuilder
      * @param Bordero $bordero
@@ -67,6 +78,9 @@ class BorderoController extends Controller
      */
     public function edit(FormBuilder $formBuilder, Bordero $bordero)
     {
+        if (!$this->authorize('update', $bordero)) {
+            return response([], 403);
+        }
         //DB::statement('SELECT tri_fbordero()', []);
         $form = $formBuilder->create(BorderoForm::class, [
             'method' => 'PUT',
@@ -84,6 +98,10 @@ class BorderoController extends Controller
      */
     public function update(Request $request, Bordero $bordero)
     {
+        if (!$this->authorize('update', $bordero)) {
+            return response([], 403);
+        }
+
         try {
             $bordero->update($request->all());
 
@@ -102,7 +120,8 @@ class BorderoController extends Controller
     }
 
 
-    public function show($id){
+    public function show($id)
+    {
 //        $bordero = Bordero::find($id);
 //        return view('admin.bordero.show')->with('bordero', $bordero);
     }
@@ -113,6 +132,9 @@ class BorderoController extends Controller
      */
     public function destroy(Bordero $bordero)
     {
+        if (!$this->authorize('delete', $bordero)) {
+            return response([], 403);
+        }
         try {
             $bordero->delete();
 

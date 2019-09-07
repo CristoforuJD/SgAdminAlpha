@@ -13,7 +13,7 @@ abstract class Number
         $value = str_replace('.', '', $value);
         $value = str_replace(',', '.', $value);
         if (is_numeric($value)) {
-            return floatval($value);
+            return ($value);
         } else {
             throw new \InvalidArgumentException('Invalid string to format to number');
         }

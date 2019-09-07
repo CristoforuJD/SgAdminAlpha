@@ -18,7 +18,7 @@
       <ObjectId>315694</ObjectId>
       <StateNumber>2165789</StateNumber>
       <Owner>safegold</Owner>
-      <IntrospectionStateNumber>2187134</IntrospectionStateNumber>
+      <IntrospectionStateNumber>2187309</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </database>
@@ -288,7 +288,7 @@
       <Comment>standard public schema</Comment>
       <StateNumber>1859</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>2187135</IntrospectionStateNumber>
+      <IntrospectionStateNumber>2187310</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -5916,8 +5916,8 @@ pro_id</ColNames>
     <column id="773" parent="174" name="bor_vlr_bruto">
       <Position>10</Position>
       <Comment>Valor Bruto</Comment>
-      <DataType>numeric(10,2 digit)|0s</DataType>
-      <StateNumber>2187076</StateNumber>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>2187209</StateNumber>
       <DefaultExpression>0</DefaultExpression>
       <TypeId>1700</TypeId>
     </column>
@@ -5955,16 +5955,16 @@ pro_id</ColNames>
     <column id="778" parent="174" name="bor_pz_med_emp">
       <Position>15</Position>
       <Comment>Prazo medio ponderado empresa</Comment>
-      <DataType>numeric(10,2 digit)|0s</DataType>
-      <StateNumber>2187116</StateNumber>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>2187163</StateNumber>
       <DefaultExpression>0</DefaultExpression>
       <TypeId>1700</TypeId>
     </column>
     <column id="779" parent="174" name="bor_pz_med_bco">
       <Position>16</Position>
       <Comment>Prazo Medio ponderado do banco</Comment>
-      <DataType>numeric(10,2 digit)|0s</DataType>
-      <StateNumber>2187120</StateNumber>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>2187166</StateNumber>
       <DefaultExpression>0</DefaultExpression>
       <TypeId>1700</TypeId>
     </column>
@@ -5979,8 +5979,8 @@ pro_id</ColNames>
     <column id="781" parent="174" name="bor_float_acordado">
       <Position>18</Position>
       <Comment>Float acordado</Comment>
-      <DataType>numeric(10,2 digit)|0s</DataType>
-      <StateNumber>2187123</StateNumber>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>2187169</StateNumber>
       <DefaultExpression>0</DefaultExpression>
       <TypeId>1700</TypeId>
     </column>
@@ -6011,8 +6011,8 @@ pro_id</ColNames>
     <column id="785" parent="174" name="bor_vlr_tot_tarifas">
       <Position>23</Position>
       <Comment>Total tarifas</Comment>
-      <DataType>numeric(10,2 digit)|0s</DataType>
-      <StateNumber>2187106</StateNumber>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>2187172</StateNumber>
       <DefaultExpression>0</DefaultExpression>
       <TypeId>1700</TypeId>
     </column>
@@ -6058,8 +6058,8 @@ pro_id</ColNames>
     <column id="791" parent="174" name="bor_recompra">
       <Position>30</Position>
       <Comment>R$ Descontado do Líquido p/ Recompra</Comment>
-      <DataType>numeric(10,2 digit)|0s</DataType>
-      <StateNumber>2187082</StateNumber>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>2187175</StateNumber>
       <DefaultExpression>0</DefaultExpression>
       <TypeId>1700</TypeId>
     </column>
@@ -6074,24 +6074,24 @@ pro_id</ColNames>
     <column id="793" parent="174" name="bor_retencao">
       <Position>32</Position>
       <Comment>Retencao R$ Descontado do Líquido p/ pagto. Dívida.</Comment>
-      <DataType>numeric(10,2 digit)|0s</DataType>
-      <StateNumber>2187133</StateNumber>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>2187221</StateNumber>
       <DefaultExpression>0</DefaultExpression>
       <TypeId>1700</TypeId>
     </column>
     <column id="794" parent="174" name="bor_per_retencao">
       <Position>33</Position>
       <Comment>% retencao do Líquido Destinado ao pagto. Dívida</Comment>
-      <DataType>numeric(10,2 digit)|0s</DataType>
-      <StateNumber>2187130</StateNumber>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>2187181</StateNumber>
       <DefaultExpression>0</DefaultExpression>
       <TypeId>1700</TypeId>
     </column>
     <column id="795" parent="174" name="bor_fomento">
       <Position>34</Position>
       <Comment>R$ Descontado do Líquido p/ Fomento</Comment>
-      <DataType>numeric(10,2 digit)|0s</DataType>
-      <StateNumber>2187085</StateNumber>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>2187184</StateNumber>
       <DefaultExpression>0</DefaultExpression>
       <TypeId>1700</TypeId>
     </column>
@@ -6175,8 +6175,8 @@ pro_id</ColNames>
     <column id="806" parent="174" name="bor_cst_com_iof">
       <Position>45</Position>
       <Comment>Custo efetivo total com IOF</Comment>
-      <DataType>numeric(10,2 digit)|0s</DataType>
-      <StateNumber>2187109</StateNumber>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>2187187</StateNumber>
       <DefaultExpression>0</DefaultExpression>
       <TypeId>1700</TypeId>
     </column>
@@ -6192,15 +6192,15 @@ pro_id</ColNames>
       <Position>49</Position>
       <Comment>Outros custos fora operacao</Comment>
       <DataType>numeric|0s</DataType>
-      <StateNumber>2186716</StateNumber>
+      <StateNumber>2187306</StateNumber>
       <DefaultExpression>0</DefaultExpression>
       <TypeId>1700</TypeId>
     </column>
     <column id="809" parent="174" name="bor_per_outros">
       <Position>50</Position>
       <Comment>Percentual outros custos fora operacao</Comment>
-      <DataType>numeric(10,2 digit)|0s</DataType>
-      <StateNumber>2187127</StateNumber>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>2187190</StateNumber>
       <DefaultExpression>0</DefaultExpression>
       <TypeId>1700</TypeId>
     </column>
